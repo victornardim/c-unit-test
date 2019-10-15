@@ -1,0 +1,7 @@
+# compiled output
+/bin
+/obj
+
+# project settings
+*.cbp
+*.depend
