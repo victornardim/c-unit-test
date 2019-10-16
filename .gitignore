@@ -1,6 +1,7 @@
 # compiled output
 /bin
 /obj
+/.vscode
 
 # project settings
 *.cbp
