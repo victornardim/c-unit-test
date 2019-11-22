@@ -46,15 +46,10 @@ So, just import these files to your project and let the test-off begin!
 
 ## Assertions
 ```c
-test_assertTrue(assert)
-
-test_assertFalse(assert)
-
-test_assertEquals(firstData, seccondData)
-
-test_assertNotEquals(firstData, secondData)
-
-test_assertStringEquals(firstString, secondString)
-
-test_assertStringNotEquals(firstString, secondString)
+test_assertTrue(assert);
+test_assertFalse(assert);
+test_assertEquals(firstData, seccondData);
+test_assertNotEquals(firstData, secondData);
+test_assertStringEquals(firstString, secondString);
+test_assertStringNotEquals(firstString, secondString);
 ```
