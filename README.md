@@ -13,12 +13,12 @@ So, just import these files to your project and let the test-off begin!
 ## Step-by-step
 
 1. Create a suite
-    ```
+    ```c
     testSuite* suite = test_createSuite("Example test suite");
     ```
 
 2. Code your tests
-    ```
+    ```c
     void testCorrectAddition() {
         test_assertEquals(addition(1, 5), 6);
     }
@@ -29,26 +29,32 @@ So, just import these files to your project and let the test-off begin!
     ```
 
 3. Add your tests to the suite
-    ```
+    ```c
     test_addTestToSuite(suite, testIncorrectAddition);
     test_addTestToSuite(suite, testCorrectAddition);
     ```
 
 4. Execute the suite
-    ```
+    ```c
     test_executeSuite(suite);
     ```
 
 5. Destroy the suite
-    ```
+    ```c
     test_destroySuite(suite);
     ```
 
 ## Assertions
+```c
+test_assertTrue(assert)
 
-- test_assertTrue(assert)
-- test_assertFalse(assert)
-- test_assertEquals(firstData, seccondData)
-- test_assertNotEquals(firstData, secondData)
-- test_assertStringEquals(firstString, secondString)
-- test_assertStringNotEquals(firstString, secondString)
+test_assertFalse(assert)
+
+test_assertEquals(firstData, seccondData)
+
+test_assertNotEquals(firstData, secondData)
+
+test_assertStringEquals(firstString, secondString)
+
+test_assertStringNotEquals(firstString, secondString)
+```
