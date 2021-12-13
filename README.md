@@ -1,4 +1,5 @@
 # C Unit Test Library
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
 
 This is a simple library to make unit tests on your C code.
 
